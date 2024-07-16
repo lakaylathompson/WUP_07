@@ -38,15 +38,12 @@ $H_A$: There is a difference in COVID-19 mortality rates between males and femal
 
 ## Graphical results - use ggplot commands to do this  
 
+Result is a categorical variable
 
+Sex is also a categorical variable
 
-  
+result~sex, so we use the helper file cat~cat  
 
-
-
-
-
-  
 ## Numerical results
 
 
