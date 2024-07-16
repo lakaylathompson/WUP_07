@@ -71,5 +71,19 @@ colPerc(table1)
 
 The numerical summary shows that more Korean females (98.7%) survived COVID-19 than Korean males (97%). This leads to a difference in death rates, with more Korean males (3%) dying from covid than Korean females (1.4%).
 
+## Inferential Results
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+
+The p-value for the chi-square test is 0.001, so we reject the null hypothesis. 
+
+The Fisher exact test shows that Korean men are 2.3 times more likely to die from covid than Korean women.
+
+
 ## Conclusions
 
+Both the Pearson's Chi-Squared Test and Fisher's Exact Test show that there's a clear difference in COVID-19 death rates between Korean males and females. The data shows that males are more likely to die from COVID-19 than females. Therefore, we reject the idea that sex doesn't affect the death rate and accept that there is a difference in COVID-19 death rates between males and females.
