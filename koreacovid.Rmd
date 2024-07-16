@@ -36,13 +36,20 @@ $H_0$: There is no difference in COVID-19 mortality rates between males and fema
 $H_A$: There is a difference in COVID-19 mortality rates between males and females, the probability of dying depends on sex.  
 
 
-## Graphical results - use ggplot commands to do this  
+# Methods
 
 Result is a categorical variable
 
 Sex is also a categorical variable
 
-result~sex, so we use the helper file cat~cat  
+result~sex, so we use the helper file cat~cat 
+
+
+# Results
+
+## Graphical results - use ggplot commands to do this  
+
+ 
 
 ## Numerical results
 
