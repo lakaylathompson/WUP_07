@@ -63,7 +63,13 @@ The barchart shows that Korean males are more likely to die from covid then Kore
 ## Inferential results 
 
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
 
+The numerical summary shows that more Korean females (98.7%) survived COVID-19 than Korean males (97%). This leads to a difference in death rates, with more Korean males (3%) dying from covid than Korean females (1.4%).
 
 ## Conclusions
 
