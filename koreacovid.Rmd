@@ -1,7 +1,7 @@
 ---
 title: "Initial Korean covid 19"
-author: "your name here"
-date: "todays date"
+author: "La Kayla Thompson"
+date: "Summer 2024"
 output:
   html_document: default
   pdf_document: default
@@ -18,6 +18,10 @@ kRdata <- kRdata %>%
 mutate(across(where(is.character), as.factor))
 
 ```
+
+
+### Introduction 
+
 ### Data is from the Patient_Info dataset from South Korea 1 Jan to 1 May 2020
 ### This data was retrieved from a downloadable zip file from kaggle
 
@@ -27,9 +31,9 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
+$H_0$: There is no difference in COVID-19 mortality rates between males and females, the probability of dying is independent of sex.  
 
-
-
+$H_A$: There is a difference in COVID-19 mortality rates between males and females, the probability of dying depends on sex.  
 
 
 ## Graphical results - use ggplot commands to do this  
